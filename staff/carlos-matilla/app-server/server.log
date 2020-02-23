@@ -1,0 +1,4372 @@
+DEBUG 2020-02-19 17:15:27.257 setting up server
+INFO 2020-02-19 17:15:27.271 server up and running on port 8080
+WARN 2020-02-19 17:15:30.621 server abruptly stopped
+DEBUG 2020-02-19 17:16:22.966 setting up server
+INFO 2020-02-19 17:16:22.981 server up and running on port 8080
+WARN 2020-02-19 17:16:24.340 server abruptly stopped
+DEBUG 2020-02-19 17:16:38.481 setting up server
+INFO 2020-02-19 17:16:38.494 server up and running on port 8080
+WARN 2020-02-19 17:16:39.751 server abruptly stopped
+DEBUG 2020-02-19 17:16:58.710 setting up server
+INFO 2020-02-19 17:16:58.725 server up and running on port 8080
+WARN 2020-02-19 17:17:00.384 server abruptly stopped
+DEBUG 2020-02-19 17:17:06.339 setting up server
+INFO 2020-02-19 17:17:06.351 server up and running on port 8080
+WARN 2020-02-19 17:17:07.415 server abruptly stopped
+DEBUG 2020-02-19 18:00:59.291 setting up server
+INFO 2020-02-19 18:00:59.309 server up and running on port 8080
+INFO 2020-02-19 18:01:39.959 request from ::1:
+GET / HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: none
+sec-fetch-mode: navigate
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-19 18:01:40.070 request from ::1:
+GET /style.css HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+accept: text/css,*/*;q=0.1
+sec-fetch-site: same-origin
+sec-fetch-mode: no-cors
+referer: http://localhost:8080/
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-19 18:01:40.078 request from ::1:
+GET /main.js HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+accept: */*
+sec-fetch-site: same-origin
+sec-fetch-mode: no-cors
+referer: http://localhost:8080/
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-19 18:01:42.895 request from ::1:
+GET /favicon.ico HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+accept: image/webp,image/apng,image/*,*/*;q=0.8
+sec-fetch-site: same-origin
+sec-fetch-mode: no-cors
+referer: http://localhost:8080/
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-19 18:01:55.781 request from ::1:
+GET /login.html HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: none
+sec-fetch-mode: navigate
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+WARN 2020-02-19 18:09:37.662 server abruptly stopped
+DEBUG 2020-02-19 18:11:47.845 setting up server
+INFO 2020-02-19 18:11:47.862 server up and running on port 8080
+INFO 2020-02-19 18:11:53.707 request from ::1:
+GET /login.html HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+cache-control: max-age=0
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: none
+sec-fetch-mode: navigate
+accept-encoding: gzip, deflate, br
+accept-language: es
+if-none-match: W/"1c7-1705e613a26"
+if-modified-since: Wed, 19 Feb 2020 16:56:35 GMT
+
+INFO 2020-02-19 18:12:03.550 request from ::1:
+POST /authenticate HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 23
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/login.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+WARN 2020-02-19 18:13:28.417 server abruptly stopped
+DEBUG 2020-02-19 18:13:31.435 setting up server
+INFO 2020-02-19 18:13:31.446 server up and running on port 8080
+INFO 2020-02-19 18:13:47.744 request from ::1:
+GET /login.html HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+cache-control: max-age=0
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: none
+sec-fetch-mode: navigate
+accept-encoding: gzip, deflate, br
+accept-language: es
+if-none-match: W/"1c7-1705e613a26"
+if-modified-since: Wed, 19 Feb 2020 16:56:35 GMT
+
+INFO 2020-02-19 18:13:51.187 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 23
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/login.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+WARN 2020-02-19 18:15:03.975 server abruptly stopped
+DEBUG 2020-02-19 18:15:06.206 setting up server
+INFO 2020-02-19 18:15:06.216 server up and running on port 8080
+INFO 2020-02-19 18:15:17.923 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 21
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/login.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-19 18:15:26.873 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 23
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/login.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+WARN 2020-02-19 18:17:46.701 server abruptly stopped
+DEBUG 2020-02-19 18:20:14.271 setting up server
+INFO 2020-02-19 18:20:14.286 server up and running on port 8080
+INFO 2020-02-19 18:20:22.579 request from ::1:
+GET /login.html HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+cache-control: max-age=0
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: none
+sec-fetch-mode: navigate
+accept-encoding: gzip, deflate, br
+accept-language: es
+if-none-match: W/"1c0-1705e707896"
+if-modified-since: Wed, 19 Feb 2020 17:13:14 GMT
+
+INFO 2020-02-19 18:20:27.388 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 23
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/login.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+WARN 2020-02-19 18:22:16.601 server abruptly stopped
+DEBUG 2020-02-19 18:22:19.428 setting up server
+INFO 2020-02-19 18:22:19.439 server up and running on port 8080
+INFO 2020-02-19 18:22:24.618 request from ::1:
+GET /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+cache-control: max-age=0
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: cross-site
+sec-fetch-mode: navigate
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-19 18:22:36.585 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 29
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/login.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+WARN 2020-02-19 18:24:09.291 server abruptly stopped
+DEBUG 2020-02-19 18:24:11.398 setting up server
+INFO 2020-02-19 18:24:11.406 server up and running on port 8080
+INFO 2020-02-19 18:24:19.339 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 29
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/login.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+WARN 2020-02-19 18:25:03.803 server abruptly stopped
+DEBUG 2020-02-19 18:25:05.842 setting up server
+INFO 2020-02-19 18:25:05.850 server up and running on port 8080
+INFO 2020-02-19 18:25:12.979 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 29
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/login.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-19 18:27:12.991 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 29
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/login.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+WARN 2020-02-19 18:35:04.326 server abruptly stopped
+DEBUG 2020-02-19 18:35:06.305 setting up server
+INFO 2020-02-19 18:35:06.314 server up and running on port 8080
+INFO 2020-02-19 18:35:15.708 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 29
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/login.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+WARN 2020-02-19 18:35:42.277 server abruptly stopped
+DEBUG 2020-02-19 18:35:44.369 setting up server
+INFO 2020-02-19 18:35:44.377 server up and running on port 8080
+INFO 2020-02-19 18:35:52.345 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 29
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/login.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+WARN 2020-02-19 18:36:27.265 server abruptly stopped
+DEBUG 2020-02-19 18:36:29.292 setting up server
+INFO 2020-02-19 18:36:29.301 server up and running on port 8080
+INFO 2020-02-19 18:36:36.435 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 29
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/login.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+WARN 2020-02-19 18:37:01.491 server abruptly stopped
+DEBUG 2020-02-19 18:37:03.708 setting up server
+INFO 2020-02-19 18:37:03.717 server up and running on port 8080
+INFO 2020-02-19 18:37:11.469 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 29
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/login.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+WARN 2020-02-19 18:50:13.428 server abruptly stopped
+DEBUG 2020-02-19 18:50:24.468 setting up server
+INFO 2020-02-19 18:50:24.478 server up and running on port 8080
+INFO 2020-02-19 18:50:39.964 request from ::1:
+GET /register.html HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: none
+sec-fetch-mode: navigate
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-19 18:50:52.949 request from ::1:
+POST /register HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 56
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+WARN 2020-02-19 18:52:36.105 server abruptly stopped
+DEBUG 2020-02-19 18:52:37.771 setting up server
+INFO 2020-02-19 18:52:37.783 server up and running on port 8080
+INFO 2020-02-19 18:52:50.890 request from ::1:
+POST /register HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 56
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+WARN 2020-02-19 18:54:12.152 server abruptly stopped
+DEBUG 2020-02-19 18:54:22.192 setting up server
+INFO 2020-02-19 18:54:22.201 server up and running on port 8080
+INFO 2020-02-19 18:54:30.867 request from ::1:
+POST /register HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 56
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+WARN 2020-02-19 18:55:25.376 server abruptly stopped
+DEBUG 2020-02-19 18:55:27.530 setting up server
+INFO 2020-02-19 18:55:27.539 server up and running on port 8080
+INFO 2020-02-19 18:55:34.738 request from ::1:
+POST /register HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 56
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+WARN 2020-02-19 18:57:44.393 server abruptly stopped
+DEBUG 2020-02-19 18:57:46.885 setting up server
+INFO 2020-02-19 18:57:46.894 server up and running on port 8080
+INFO 2020-02-19 18:57:55.644 request from ::1:
+POST /register HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 56
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+WARN 2020-02-19 18:58:43.276 server abruptly stopped
+DEBUG 2020-02-19 18:58:45.480 setting up server
+INFO 2020-02-19 18:58:45.489 server up and running on port 8080
+INFO 2020-02-19 18:58:53.024 request from ::1:
+POST /register HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 56
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+WARN 2020-02-19 18:59:17.972 server abruptly stopped
+DEBUG 2020-02-19 18:59:20.127 setting up server
+INFO 2020-02-19 18:59:20.135 server up and running on port 8080
+INFO 2020-02-19 18:59:28.512 request from ::1:
+POST /register HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 56
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+WARN 2020-02-19 19:02:15.220 server abruptly stopped
+DEBUG 2020-02-19 19:02:21.341 setting up server
+INFO 2020-02-19 19:02:21.352 server up and running on port 8080
+INFO 2020-02-19 19:02:31.389 request from ::1:
+POST /register HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 56
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+WARN 2020-02-19 19:02:51.985 server abruptly stopped
+DEBUG 2020-02-19 19:02:55.179 setting up server
+INFO 2020-02-19 19:02:55.189 server up and running on port 8080
+INFO 2020-02-19 19:03:02.948 request from ::1:
+POST /register HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 56
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+WARN 2020-02-19 19:03:16.993 server abruptly stopped
+DEBUG 2020-02-19 19:03:18.691 setting up server
+INFO 2020-02-19 19:03:18.700 server up and running on port 8080
+INFO 2020-02-19 19:03:25.579 request from ::1:
+POST /register HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 56
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+WARN 2020-02-19 19:05:00.228 server abruptly stopped
+DEBUG 2020-02-19 19:05:02.434 setting up server
+INFO 2020-02-19 19:05:02.443 server up and running on port 8080
+INFO 2020-02-19 19:05:10.064 request from ::1:
+POST /register HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 56
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+WARN 2020-02-19 19:05:37.676 server abruptly stopped
+DEBUG 2020-02-19 19:05:40.071 setting up server
+INFO 2020-02-19 19:05:40.079 server up and running on port 8080
+INFO 2020-02-19 19:05:46.741 request from ::1:
+POST /register HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 56
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-19 19:06:57.472 request from ::1:
+GET /register HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-19 19:07:04.684 request from ::1:
+GET /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+WARN 2020-02-19 19:07:43.878 server abruptly stopped
+DEBUG 2020-02-19 19:07:46.365 setting up server
+INFO 2020-02-19 19:07:46.376 server up and running on port 8080
+INFO 2020-02-19 19:07:51.364 request from ::1:
+GET /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+WARN 2020-02-19 19:08:20.698 server abruptly stopped
+DEBUG 2020-02-19 19:08:22.563 setting up server
+INFO 2020-02-19 19:08:22.572 server up and running on port 8080
+INFO 2020-02-19 19:08:28.376 request from ::1:
+GET /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-19 19:08:35.634 request from ::1:
+GET /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-19 19:08:39.225 request from ::1:
+GET /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+cache-control: max-age=0
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-19 19:08:49.709 request from ::1:
+GET /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-19 19:08:54.312 request from ::1:
+POST /register HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 56
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-19 19:09:00.891 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 28
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+WARN 2020-02-19 19:10:24.707 server abruptly stopped
+DEBUG 2020-02-19 19:10:26.470 setting up server
+INFO 2020-02-19 19:10:26.479 server up and running on port 8080
+INFO 2020-02-19 19:10:29.313 request from ::1:
+GET /register.html HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+cache-control: max-age=0
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: none
+sec-fetch-mode: navigate
+accept-encoding: gzip, deflate, br
+accept-language: es
+if-none-match: W/"217-1705e8bf2c2"
+if-modified-since: Wed, 19 Feb 2020 17:43:14 GMT
+
+INFO 2020-02-19 19:10:30.765 request from ::1:
+GET /login.html HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+if-none-match: W/"1c0-1705e707896"
+if-modified-since: Wed, 19 Feb 2020 17:13:14 GMT
+
+WARN 2020-02-19 19:10:52.443 server abruptly stopped
+DEBUG 2020-02-19 19:10:54.595 setting up server
+INFO 2020-02-19 19:10:54.604 server up and running on port 8080
+INFO 2020-02-19 19:11:15.612 request from ::1:
+POST /register HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 53
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-19 19:11:22.674 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 29
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-19 19:11:28.215 request from ::1:
+GET /register.html HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register
+accept-encoding: gzip, deflate, br
+accept-language: es
+if-none-match: W/"21b-1705ea4a44f"
+if-modified-since: Wed, 19 Feb 2020 18:10:13 GMT
+
+INFO 2020-02-19 19:11:29.360 request from ::1:
+GET /login.html HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+if-none-match: W/"1c0-1705e707896"
+if-modified-since: Wed, 19 Feb 2020 17:13:14 GMT
+
+INFO 2020-02-19 19:11:30.341 request from ::1:
+GET /register.html HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/login.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+if-none-match: W/"21b-1705ea4a44f"
+if-modified-since: Wed, 19 Feb 2020 18:10:13 GMT
+
+INFO 2020-02-19 19:11:31.395 request from ::1:
+GET /login.html HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+if-none-match: W/"1c4-1705ea52cfd"
+if-modified-since: Wed, 19 Feb 2020 18:10:48 GMT
+
+INFO 2020-02-19 19:11:35.909 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 32
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/login.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+WARN 2020-02-19 19:14:54.720 server abruptly stopped
+DEBUG 2020-02-19 19:14:57.349 setting up server
+INFO 2020-02-19 19:14:57.358 server up and running on port 8080
+INFO 2020-02-19 19:15:04.750 request from ::1:
+GET /login.html HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+if-none-match: W/"1c4-1705ea52cfd"
+if-modified-since: Wed, 19 Feb 2020 18:10:48 GMT
+
+INFO 2020-02-19 19:15:08.177 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 32
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/login.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-19 19:17:29.182 request from ::1:
+GET /register.html HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+cache-control: max-age=0
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/login.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+if-none-match: W/"21b-1705ea4a44f"
+if-modified-since: Wed, 19 Feb 2020 18:10:13 GMT
+
+INFO 2020-02-19 19:17:35.936 request from ::1:
+POST /register HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 57
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-19 19:17:52.723 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 25
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+WARN 2020-02-19 19:20:02.117 server abruptly stopped
+DEBUG 2020-02-19 19:20:04.618 setting up server
+INFO 2020-02-19 19:20:04.629 server up and running on port 8080
+INFO 2020-02-19 19:20:21.028 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 25
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+WARN 2020-02-19 19:21:05.371 server abruptly stopped
+DEBUG 2020-02-19 19:21:07.484 setting up server
+INFO 2020-02-19 19:21:07.492 server up and running on port 8080
+INFO 2020-02-19 19:21:15.568 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 25
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+WARN 2020-02-19 19:23:38.553 server abruptly stopped
+DEBUG 2020-02-19 19:23:42.193 setting up server
+INFO 2020-02-19 19:23:42.203 server up and running on port 8080
+INFO 2020-02-19 19:23:51.837 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 27
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-19 19:24:10.312 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 29
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-19 19:24:12.175 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 29
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-19 19:24:12.707 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 29
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-19 19:24:13.135 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 29
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-19 19:24:13.508 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 29
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-19 19:24:18.950 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 29
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-19 19:24:19.357 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 29
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-19 19:24:19.640 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 29
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-19 19:24:25.523 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 25
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-19 19:24:31.689 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 25
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-19 19:24:32.665 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 25
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+WARN 2020-02-19 19:25:34.428 server abruptly stopped
+DEBUG 2020-02-19 19:25:37.457 setting up server
+INFO 2020-02-19 19:25:37.466 server up and running on port 8080
+INFO 2020-02-19 19:25:50.695 request from ::1:
+GET /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+cache-control: max-age=0
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: cross-site
+sec-fetch-mode: navigate
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-19 19:25:59.687 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 25
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-19 19:26:12.102 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 29
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-19 19:26:13.627 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 29
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-19 19:26:13.827 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 29
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-19 19:26:14.123 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 29
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-19 19:26:14.282 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 29
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-19 19:26:21.304 request from ::1:
+GET /login.html HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: none
+sec-fetch-mode: navigate
+accept-encoding: gzip, deflate, br
+accept-language: es
+if-none-match: W/"1c4-1705ea52cfd"
+if-modified-since: Wed, 19 Feb 2020 18:10:48 GMT
+
+INFO 2020-02-19 19:26:30.090 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 29
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/login.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+WARN 2020-02-19 19:27:22.875 server abruptly stopped
+DEBUG 2020-02-19 19:27:25.973 setting up server
+INFO 2020-02-19 19:27:25.981 server up and running on port 8080
+INFO 2020-02-19 19:27:32.000 request from ::1:
+GET /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+cache-control: max-age=0
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: none
+sec-fetch-mode: navigate
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-19 19:27:44.578 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 29
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/login.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-19 19:27:51.754 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 29
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/login.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-19 19:27:52.673 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 29
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/login.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-19 19:27:52.999 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 29
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/login.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-19 19:27:53.436 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 29
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/login.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-19 19:29:53.441 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 29
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/login.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+WARN 2020-02-19 19:30:51.893 server abruptly stopped
+DEBUG 2020-02-19 19:30:54.990 setting up server
+INFO 2020-02-19 19:30:54.999 server up and running on port 8080
+INFO 2020-02-19 19:31:10.706 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 29
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/login.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-19 19:31:17.557 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 37
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/login.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-19 19:31:39.237 request from ::1:
+GET /register.html HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/login.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+if-none-match: W/"21b-1705ea4a44f"
+if-modified-since: Wed, 19 Feb 2020 18:10:13 GMT
+
+INFO 2020-02-19 19:31:48.777 request from ::1:
+POST /register HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 56
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-19 19:31:54.373 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 28
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-19 19:31:58.625 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 28
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-19 19:32:01.113 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 28
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-19 19:32:02.060 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 28
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+WARN 2020-02-19 19:32:32.797 server abruptly stopped
+DEBUG 2020-02-19 19:32:34.722 setting up server
+INFO 2020-02-19 19:32:34.732 server up and running on port 8080
+INFO 2020-02-19 19:32:40.907 request from ::1:
+GET /register.html HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register
+accept-encoding: gzip, deflate, br
+accept-language: es
+if-none-match: W/"21b-1705ea4a44f"
+if-modified-since: Wed, 19 Feb 2020 18:10:13 GMT
+
+INFO 2020-02-19 19:32:51.065 request from ::1:
+POST /register HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 56
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-19 19:32:58.306 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 28
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-19 19:33:02.121 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 28
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-19 19:46:06.313 request from ::1:
+GET /authenticate HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: none
+sec-fetch-mode: navigate
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+WARN 2020-02-19 19:47:56.163 server abruptly stopped
+DEBUG 2020-02-19 19:51:28.138 setting up server
+INFO 2020-02-19 19:51:28.156 server up and running on port 8080
+INFO 2020-02-19 19:51:55.325 request from ::1:
+GET /login.html HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: none
+sec-fetch-mode: navigate
+accept-encoding: gzip, deflate, br
+accept-language: es
+if-none-match: W/"1c4-1705ea52cfd"
+if-modified-since: Wed, 19 Feb 2020 18:10:48 GMT
+
+INFO 2020-02-19 19:52:03.460 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 29
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/login.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+WARN 2020-02-19 19:53:26.097 server abruptly stopped
+DEBUG 2020-02-19 19:53:28.898 setting up server
+INFO 2020-02-19 19:53:28.906 server up and running on port 8080
+INFO 2020-02-19 19:53:36.880 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 29
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/login.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+WARN 2020-02-19 19:54:14.973 server abruptly stopped
+DEBUG 2020-02-19 19:54:17.063 setting up server
+INFO 2020-02-19 19:54:17.073 server up and running on port 8080
+INFO 2020-02-19 19:54:23.814 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 29
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/login.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+WARN 2020-02-19 19:55:27.532 server abruptly stopped
+DEBUG 2020-02-19 19:55:29.656 setting up server
+INFO 2020-02-19 19:55:29.664 server up and running on port 8080
+INFO 2020-02-19 19:55:36.889 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 29
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/login.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+WARN 2020-02-19 19:56:03.650 server abruptly stopped
+DEBUG 2020-02-19 19:56:05.232 setting up server
+INFO 2020-02-19 19:56:05.240 server up and running on port 8080
+INFO 2020-02-19 19:56:13.011 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 29
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/login.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+WARN 2020-02-19 19:57:26.853 server abruptly stopped
+DEBUG 2020-02-19 19:57:28.826 setting up server
+INFO 2020-02-19 19:57:28.835 server up and running on port 8080
+INFO 2020-02-19 19:57:36.976 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 29
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/login.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+WARN 2020-02-19 20:00:19.095 server abruptly stopped
+DEBUG 2020-02-19 20:00:21.492 setting up server
+INFO 2020-02-19 20:00:21.503 server up and running on port 8080
+INFO 2020-02-19 20:00:27.171 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 29
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/login.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+WARN 2020-02-19 20:01:14.711 server abruptly stopped
+DEBUG 2020-02-19 20:01:16.568 setting up server
+INFO 2020-02-19 20:01:16.577 server up and running on port 8080
+INFO 2020-02-19 20:01:22.597 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 29
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/login.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+WARN 2020-02-19 20:02:09.056 server abruptly stopped
+DEBUG 2020-02-19 20:02:11.513 setting up server
+INFO 2020-02-19 20:02:11.522 server up and running on port 8080
+INFO 2020-02-19 20:02:18.010 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 29
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/login.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-19 20:05:46.398 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 29
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/login.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-19 20:05:55.688 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 31
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/login.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-19 20:06:00.363 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 29
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/login.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+WARN 2020-02-19 20:06:16.711 server abruptly stopped
+DEBUG 2020-02-19 20:06:18.670 setting up server
+INFO 2020-02-19 20:06:18.680 server up and running on port 8080
+INFO 2020-02-19 20:06:23.461 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 31
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/login.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-19 20:06:32.525 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 29
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/login.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+WARN 2020-02-19 20:08:45.728 server abruptly stopped
+DEBUG 2020-02-19 20:11:15.308 setting up server
+INFO 2020-02-19 20:11:15.318 server up and running on port 8080
+INFO 2020-02-19 20:12:30.190 request from ::1:
+GET /register.html HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: none
+sec-fetch-mode: navigate
+accept-encoding: gzip, deflate, br
+accept-language: es
+if-none-match: W/"21b-1705ea4a44f"
+if-modified-since: Wed, 19 Feb 2020 18:10:13 GMT
+
+INFO 2020-02-19 20:12:39.958 request from ::1:
+POST /register HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 56
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-19 20:14:39.961 request from ::1:
+POST /register HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 56
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+WARN 2020-02-19 20:20:14.905 server abruptly stopped
+DEBUG 2020-02-19 20:20:17.329 setting up server
+INFO 2020-02-19 20:20:17.341 server up and running on port 8080
+INFO 2020-02-19 20:20:38.614 request from ::1:
+POST /register HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 51
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-19 20:22:38.616 request from ::1:
+POST /register HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 51
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+WARN 2020-02-19 20:24:54.739 server abruptly stopped
+DEBUG 2020-02-19 20:24:57.219 setting up server
+INFO 2020-02-19 20:24:57.229 server up and running on port 8080
+INFO 2020-02-19 20:25:06.929 request from ::1:
+POST /register HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 51
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+WARN 2020-02-19 20:26:15.277 server abruptly stopped
+DEBUG 2020-02-19 20:26:17.178 setting up server
+INFO 2020-02-19 20:26:17.186 server up and running on port 8080
+INFO 2020-02-19 20:26:24.872 request from ::1:
+POST /register HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 51
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-19 20:26:32.495 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 24
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-19 20:26:38.452 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 24
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+DEBUG 2020-02-20 13:11:43.354 setting up server
+INFO 2020-02-20 13:11:43.377 server up and running on port 8080
+INFO 2020-02-20 13:12:09.401 request from ::1:
+GET /register.html HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+cache-control: max-age=0
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: none
+sec-fetch-mode: navigate
+accept-encoding: gzip, deflate, br
+accept-language: es
+if-none-match: W/"21b-1705ea4a44f"
+if-modified-since: Wed, 19 Feb 2020 18:10:13 GMT
+
+INFO 2020-02-20 13:12:18.410 request from ::1:
+POST /register HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 53
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-20 13:12:25.145 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 25
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+WARN 2020-02-20 13:13:26.466 server abruptly stopped
+DEBUG 2020-02-20 13:13:28.562 setting up server
+INFO 2020-02-20 13:13:28.571 server up and running on port 8080
+INFO 2020-02-20 13:13:37.251 request from ::1:
+POST /register HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 53
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-20 13:13:42.472 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 25
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+WARN 2020-02-20 13:26:13.253 server abruptly stopped
+DEBUG 2020-02-20 13:26:29.952 setting up server
+INFO 2020-02-20 13:26:29.963 server up and running on port 8080
+INFO 2020-02-20 13:26:41.592 request from ::1:
+GET /register.html HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: none
+sec-fetch-mode: navigate
+accept-encoding: gzip, deflate, br
+accept-language: es
+if-none-match: W/"21b-170627b2c72"
+if-modified-since: Thu, 20 Feb 2020 12:03:24 GMT
+
+INFO 2020-02-20 13:26:58.404 request from ::1:
+POST /register HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 55
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-20 13:27:02.975 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 24
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+DEBUG 2020-02-20 16:29:54.020 setting up server
+INFO 2020-02-20 16:29:54.032 server up and running on port 8080
+INFO 2020-02-20 16:30:04.382 request from ::1:
+GET / HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: none
+sec-fetch-mode: navigate
+accept-encoding: gzip, deflate, br
+accept-language: es
+if-none-match: W/"134-1705e59c20d"
+if-modified-since: Wed, 19 Feb 2020 16:48:25 GMT
+
+INFO 2020-02-20 16:30:04.499 request from ::1:
+GET /main.js HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+accept: */*
+sec-fetch-site: same-origin
+sec-fetch-mode: no-cors
+referer: http://localhost:8080/
+accept-encoding: gzip, deflate, br
+accept-language: es
+if-none-match: W/"1e-1705e59c217"
+if-modified-since: Wed, 19 Feb 2020 16:48:25 GMT
+
+INFO 2020-02-20 16:30:04.500 request from ::1:
+GET /style.css HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+accept: text/css,*/*;q=0.1
+sec-fetch-site: same-origin
+sec-fetch-mode: no-cors
+referer: http://localhost:8080/
+accept-encoding: gzip, deflate, br
+accept-language: es
+if-none-match: W/"44-1705e59c22a"
+if-modified-since: Wed, 19 Feb 2020 16:48:25 GMT
+
+INFO 2020-02-20 16:30:28.535 request from ::1:
+GET /register.html HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: none
+sec-fetch-mode: navigate
+accept-encoding: gzip, deflate, br
+accept-language: es
+if-none-match: W/"21b-170627b2c72"
+if-modified-since: Thu, 20 Feb 2020 12:03:24 GMT
+
+INFO 2020-02-20 16:30:38.813 request from ::1:
+POST /register HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 52
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register.html
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-20 16:30:43.607 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 24
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+WARN 2020-02-20 16:46:09.498 server abruptly stopped
+DEBUG 2020-02-20 16:50:51.455 setting up server
+INFO 2020-02-20 16:50:51.469 server up and running on port 8080
+INFO 2020-02-20 16:50:56.216 request from ::1:
+GET / HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+cache-control: max-age=0
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: none
+sec-fetch-mode: navigate
+accept-encoding: gzip, deflate, br
+accept-language: es
+if-none-match: W/"134-170633267f8"
+if-modified-since: Thu, 20 Feb 2020 15:23:32 GMT
+
+INFO 2020-02-20 16:50:56.260 request from ::1:
+GET /style.css HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+accept: text/css,*/*;q=0.1
+sec-fetch-site: same-origin
+sec-fetch-mode: no-cors
+referer: http://localhost:8080/
+accept-encoding: gzip, deflate, br
+accept-language: es
+if-none-match: W/"44-170633267fd"
+if-modified-since: Thu, 20 Feb 2020 15:23:32 GMT
+
+INFO 2020-02-20 16:50:56.261 request from ::1:
+GET /main.js HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+accept: */*
+sec-fetch-site: same-origin
+sec-fetch-mode: no-cors
+referer: http://localhost:8080/
+accept-encoding: gzip, deflate, br
+accept-language: es
+if-none-match: W/"1e-170633267fa"
+if-modified-since: Thu, 20 Feb 2020 15:23:32 GMT
+
+WARN 2020-02-20 16:52:04.998 server abruptly stopped
+DEBUG 2020-02-20 16:52:06.909 setting up server
+INFO 2020-02-20 16:52:06.920 server up and running on port 8080
+INFO 2020-02-20 16:52:12.145 request from ::1:
+GET / HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+cache-control: max-age=0
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: none
+sec-fetch-mode: navigate
+accept-encoding: gzip, deflate, br
+accept-language: es
+if-none-match: W/"134-170633267f8"
+if-modified-since: Thu, 20 Feb 2020 15:23:32 GMT
+
+INFO 2020-02-20 16:52:12.172 request from ::1:
+GET /style.css HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+if-none-match: W/"44-170633267fd"
+if-modified-since: Thu, 20 Feb 2020 15:23:32 GMT
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+accept: text/css,*/*;q=0.1
+sec-fetch-site: same-origin
+sec-fetch-mode: no-cors
+referer: http://localhost:8080/
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+WARN 2020-02-20 16:52:55.708 server abruptly stopped
+DEBUG 2020-02-20 16:52:57.780 setting up server
+INFO 2020-02-20 16:52:57.788 server up and running on port 8080
+INFO 2020-02-20 16:53:00.270 request from ::1:
+GET / HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+cache-control: max-age=0
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: none
+sec-fetch-mode: navigate
+accept-encoding: gzip, deflate, br
+accept-language: es
+if-none-match: W/"183-TIcKDQQuleof1zGUeFioBai2fLw"
+
+INFO 2020-02-20 16:53:00.300 request from ::1:
+GET /style.css HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+if-none-match: W/"44-170633267fd"
+if-modified-since: Thu, 20 Feb 2020 15:23:32 GMT
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+accept: text/css,*/*;q=0.1
+sec-fetch-site: same-origin
+sec-fetch-mode: no-cors
+referer: http://localhost:8080/
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-20 16:53:19.511 request from ::1:
+GET / HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+cache-control: max-age=0
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: none
+sec-fetch-mode: navigate
+accept-encoding: gzip, deflate, br
+accept-language: es
+if-none-match: W/"183-TIcKDQQuleof1zGUeFioBai2fLw"
+
+INFO 2020-02-20 16:53:19.535 request from ::1:
+GET /style.css HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+accept: text/css,*/*;q=0.1
+sec-fetch-site: same-origin
+sec-fetch-mode: no-cors
+referer: http://localhost:8080/
+accept-encoding: gzip, deflate, br
+accept-language: es
+if-none-match: W/"70-170634d3306"
+if-modified-since: Thu, 20 Feb 2020 15:52:48 GMT
+
+INFO 2020-02-20 16:53:20.005 request from ::1:
+GET / HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+cache-control: max-age=0
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: none
+sec-fetch-mode: navigate
+accept-encoding: gzip, deflate, br
+accept-language: es
+if-none-match: W/"183-TIcKDQQuleof1zGUeFioBai2fLw"
+
+INFO 2020-02-20 16:53:20.032 request from ::1:
+GET /style.css HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+if-none-match: W/"70-170634d3306"
+if-modified-since: Thu, 20 Feb 2020 15:52:48 GMT
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+accept: text/css,*/*;q=0.1
+sec-fetch-site: same-origin
+sec-fetch-mode: no-cors
+referer: http://localhost:8080/
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-20 16:53:23.078 request from ::1:
+GET / HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+cache-control: max-age=0
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: none
+sec-fetch-mode: navigate
+accept-encoding: gzip, deflate, br
+accept-language: es
+if-none-match: W/"183-TIcKDQQuleof1zGUeFioBai2fLw"
+
+INFO 2020-02-20 16:53:23.102 request from ::1:
+GET /style.css HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+if-none-match: W/"70-170634d3306"
+if-modified-since: Thu, 20 Feb 2020 15:52:48 GMT
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+accept: text/css,*/*;q=0.1
+sec-fetch-site: same-origin
+sec-fetch-mode: no-cors
+referer: http://localhost:8080/
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+WARN 2020-02-20 16:53:29.044 server abruptly stopped
+DEBUG 2020-02-20 16:53:30.737 setting up server
+INFO 2020-02-20 16:53:30.744 server up and running on port 8080
+INFO 2020-02-20 16:53:33.776 request from ::1:
+GET / HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+cache-control: max-age=0
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: none
+sec-fetch-mode: navigate
+accept-encoding: gzip, deflate, br
+accept-language: es
+if-none-match: W/"183-TIcKDQQuleof1zGUeFioBai2fLw"
+
+INFO 2020-02-20 16:53:33.801 request from ::1:
+GET /style.css HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+if-none-match: W/"70-170634d3306"
+if-modified-since: Thu, 20 Feb 2020 15:52:48 GMT
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+accept: text/css,*/*;q=0.1
+sec-fetch-site: same-origin
+sec-fetch-mode: no-cors
+referer: http://localhost:8080/
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+WARN 2020-02-20 16:54:00.279 server abruptly stopped
+DEBUG 2020-02-20 16:54:01.941 setting up server
+INFO 2020-02-20 16:54:01.949 server up and running on port 8080
+INFO 2020-02-20 16:54:04.370 request from ::1:
+GET / HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+cache-control: max-age=0
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: none
+sec-fetch-mode: navigate
+accept-encoding: gzip, deflate, br
+accept-language: es
+if-none-match: W/"185-rwB4PDcuHJCHf0gQh+gePdcjIZE"
+
+INFO 2020-02-20 16:54:04.399 request from ::1:
+GET /style.css HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+if-none-match: W/"70-170634d3306"
+if-modified-since: Thu, 20 Feb 2020 15:52:48 GMT
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+accept: text/css,*/*;q=0.1
+sec-fetch-site: same-origin
+sec-fetch-mode: no-cors
+referer: http://localhost:8080/
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+WARN 2020-02-20 16:55:13.605 server abruptly stopped
+DEBUG 2020-02-20 16:55:15.444 setting up server
+INFO 2020-02-20 16:55:15.452 server up and running on port 8080
+INFO 2020-02-20 16:55:18.547 request from ::1:
+GET / HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+cache-control: max-age=0
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: none
+sec-fetch-mode: navigate
+accept-encoding: gzip, deflate, br
+accept-language: es
+if-none-match: W/"18f-bNG8HISJg/cLfz3/bNAsguYwCkE"
+
+INFO 2020-02-20 16:55:18.570 request from ::1:
+GET /style.css HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+if-none-match: W/"70-170634d3306"
+if-modified-since: Thu, 20 Feb 2020 15:52:48 GMT
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+accept: text/css,*/*;q=0.1
+sec-fetch-site: same-origin
+sec-fetch-mode: no-cors
+referer: http://localhost:8080/
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+WARN 2020-02-20 16:55:59.723 server abruptly stopped
+DEBUG 2020-02-20 16:56:01.769 setting up server
+INFO 2020-02-20 16:56:01.777 server up and running on port 8080
+INFO 2020-02-20 16:56:04.727 request from ::1:
+GET / HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+cache-control: max-age=0
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: none
+sec-fetch-mode: navigate
+accept-encoding: gzip, deflate, br
+accept-language: es
+if-none-match: W/"185-rwB4PDcuHJCHf0gQh+gePdcjIZE"
+
+INFO 2020-02-20 16:56:04.755 request from ::1:
+GET /style.css HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+if-none-match: W/"70-170634d3306"
+if-modified-since: Thu, 20 Feb 2020 15:52:48 GMT
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+accept: text/css,*/*;q=0.1
+sec-fetch-site: same-origin
+sec-fetch-mode: no-cors
+referer: http://localhost:8080/
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+WARN 2020-02-20 16:56:12.896 server abruptly stopped
+DEBUG 2020-02-20 16:56:15.507 setting up server
+INFO 2020-02-20 16:56:15.516 server up and running on port 8080
+INFO 2020-02-20 16:56:21.714 request from ::1:
+GET / HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+purpose: prefetch
+sec-fetch-site: none
+sec-fetch-mode: navigate
+accept-encoding: gzip, deflate, br
+accept-language: es
+if-none-match: W/"187-1fXjPvKgE0ago66jWKT6+5MTQ/c"
+
+INFO 2020-02-20 16:56:21.737 request from ::1:
+GET /style.css HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+accept: text/css,*/*;q=0.1
+purpose: prefetch
+sec-fetch-site: same-origin
+sec-fetch-mode: no-cors
+referer: http://localhost:8080/
+accept-encoding: gzip, deflate, br
+accept-language: es
+if-none-match: W/"70-170634d3306"
+if-modified-since: Thu, 20 Feb 2020 15:52:48 GMT
+
+INFO 2020-02-20 16:56:29.903 request from ::1:
+GET / HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+cache-control: max-age=0
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: none
+sec-fetch-mode: navigate
+accept-encoding: gzip, deflate, br
+accept-language: es
+if-none-match: W/"187-1fXjPvKgE0ago66jWKT6+5MTQ/c"
+
+INFO 2020-02-20 16:56:29.923 request from ::1:
+GET /style.css HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+if-none-match: W/"70-170634d3306"
+if-modified-since: Thu, 20 Feb 2020 15:52:48 GMT
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+accept: text/css,*/*;q=0.1
+sec-fetch-site: same-origin
+sec-fetch-mode: no-cors
+referer: http://localhost:8080/
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+WARN 2020-02-20 16:56:39.922 server abruptly stopped
+DEBUG 2020-02-20 17:00:37.114 setting up server
+INFO 2020-02-20 17:00:37.132 server up and running on port 8080
+DEBUG 2020-02-20 17:01:15.944 setting up server
+INFO 2020-02-20 17:01:15.952 server up and running on port 8080
+DEBUG 2020-02-20 17:01:29.085 setting up server
+INFO 2020-02-20 17:01:29.092 server up and running on port 8080
+DEBUG 2020-02-20 17:02:44.632 setting up server
+INFO 2020-02-20 17:02:44.641 server up and running on port 8080
+DEBUG 2020-02-20 17:03:38.662 setting up server
+INFO 2020-02-20 17:03:38.670 server up and running on port 8080
+DEBUG 2020-02-20 17:04:44.204 setting up server
+INFO 2020-02-20 17:04:44.211 server up and running on port 8080
+DEBUG 2020-02-20 17:05:08.870 setting up server
+INFO 2020-02-20 17:05:08.877 server up and running on port 8080
+DEBUG 2020-02-20 17:05:23.112 setting up server
+INFO 2020-02-20 17:05:23.120 server up and running on port 8080
+DEBUG 2020-02-20 17:06:35.911 setting up server
+INFO 2020-02-20 17:06:35.918 server up and running on port 8080
+DEBUG 2020-02-20 17:07:46.092 setting up server
+INFO 2020-02-20 17:07:46.100 server up and running on port 8080
+DEBUG 2020-02-20 17:09:04.614 setting up server
+INFO 2020-02-20 17:09:04.621 server up and running on port 8080
+DEBUG 2020-02-20 17:10:52.287 setting up server
+INFO 2020-02-20 17:10:52.298 server up and running on port 8080
+DEBUG 2020-02-20 17:11:23.897 setting up server
+INFO 2020-02-20 17:11:23.907 server up and running on port 8080
+DEBUG 2020-02-20 17:13:34.985 setting up server
+INFO 2020-02-20 17:13:34.995 server up and running on port 8080
+DEBUG 2020-02-20 17:15:07.314 setting up server
+INFO 2020-02-20 17:15:07.322 server up and running on port 8080
+INFO 2020-02-20 17:15:12.632 request from ::1:
+GET /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-20 17:15:12.666 request from ::1:
+GET /style.css HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+accept: text/css,*/*;q=0.1
+sec-fetch-site: same-origin
+sec-fetch-mode: no-cors
+referer: http://localhost:8080/login
+accept-encoding: gzip, deflate, br
+accept-language: es
+if-none-match: W/"70-170634d3306"
+if-modified-since: Thu, 20 Feb 2020 15:52:48 GMT
+
+INFO 2020-02-20 17:15:22.483 request from ::1:
+GET /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/
+accept-encoding: gzip, deflate, br
+accept-language: es
+if-none-match: W/"279-Va6o62Ff9axfxvWCOvtAj89SH1I"
+
+INFO 2020-02-20 17:15:22.513 request from ::1:
+GET /style.css HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+if-none-match: W/"70-170634d3306"
+if-modified-since: Thu, 20 Feb 2020 15:52:48 GMT
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+accept: text/css,*/*;q=0.1
+sec-fetch-site: same-origin
+sec-fetch-mode: no-cors
+referer: http://localhost:8080/login
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-20 17:15:27.099 request from ::1:
+GET /register HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/login
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-20 17:15:27.127 request from ::1:
+GET /style.css HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+if-none-match: W/"70-170634d3306"
+if-modified-since: Thu, 20 Feb 2020 15:52:48 GMT
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+accept: text/css,*/*;q=0.1
+sec-fetch-site: same-origin
+sec-fetch-mode: no-cors
+referer: http://localhost:8080/register
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-20 17:15:29.234 request from ::1:
+GET /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register
+accept-encoding: gzip, deflate, br
+accept-language: es
+if-none-match: W/"279-Va6o62Ff9axfxvWCOvtAj89SH1I"
+
+INFO 2020-02-20 17:15:29.261 request from ::1:
+GET /style.css HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+if-none-match: W/"70-170634d3306"
+if-modified-since: Thu, 20 Feb 2020 15:52:48 GMT
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+accept: text/css,*/*;q=0.1
+sec-fetch-site: same-origin
+sec-fetch-mode: no-cors
+referer: http://localhost:8080/login
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-20 17:15:51.708 request from ::1:
+GET / HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: none
+sec-fetch-mode: navigate
+accept-encoding: gzip, deflate, br
+accept-language: es
+if-none-match: W/"187-1fXjPvKgE0ago66jWKT6+5MTQ/c"
+
+INFO 2020-02-20 17:15:51.740 request from ::1:
+GET /style.css HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+if-none-match: W/"70-170634d3306"
+if-modified-since: Thu, 20 Feb 2020 15:52:48 GMT
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+accept: text/css,*/*;q=0.1
+sec-fetch-site: same-origin
+sec-fetch-mode: no-cors
+referer: http://localhost:8080/
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+WARN 2020-02-20 17:16:00.523 server abruptly stopped
+DEBUG 2020-02-20 17:16:05.988 setting up server
+INFO 2020-02-20 17:16:05.996 server up and running on port 8080
+INFO 2020-02-20 17:16:10.519 request from ::1:
+GET / HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+cache-control: max-age=0
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: none
+sec-fetch-mode: navigate
+accept-encoding: gzip, deflate, br
+accept-language: es
+if-none-match: W/"187-1fXjPvKgE0ago66jWKT6+5MTQ/c"
+
+INFO 2020-02-20 17:16:10.547 request from ::1:
+GET /style.css HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+accept: text/css,*/*;q=0.1
+sec-fetch-site: same-origin
+sec-fetch-mode: no-cors
+referer: http://localhost:8080/
+accept-encoding: gzip, deflate, br
+accept-language: es
+if-none-match: W/"57-170636228fe"
+if-modified-since: Thu, 20 Feb 2020 16:15:42 GMT
+
+INFO 2020-02-20 17:16:12.103 request from ::1:
+GET /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/
+accept-encoding: gzip, deflate, br
+accept-language: es
+if-none-match: W/"279-Va6o62Ff9axfxvWCOvtAj89SH1I"
+
+INFO 2020-02-20 17:16:12.128 request from ::1:
+GET /style.css HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+accept: text/css,*/*;q=0.1
+sec-fetch-site: same-origin
+sec-fetch-mode: no-cors
+referer: http://localhost:8080/login
+accept-encoding: gzip, deflate, br
+accept-language: es
+if-none-match: W/"57-170636228fe"
+if-modified-since: Thu, 20 Feb 2020 16:15:42 GMT
+
+INFO 2020-02-20 17:16:13.817 request from ::1:
+GET /register HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/login
+accept-encoding: gzip, deflate, br
+accept-language: es
+if-none-match: W/"2de-xRkpOrdcb/9Tzpq3AYnBG2s3lUA"
+
+INFO 2020-02-20 17:16:13.843 request from ::1:
+GET /style.css HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+if-none-match: W/"57-170636228fe"
+if-modified-since: Thu, 20 Feb 2020 16:15:42 GMT
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+accept: text/css,*/*;q=0.1
+sec-fetch-site: same-origin
+sec-fetch-mode: no-cors
+referer: http://localhost:8080/register
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-20 17:16:24.437 request from ::1:
+POST /register HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 53
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-20 17:16:24.474 request from ::1:
+GET /style.css HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+if-none-match: W/"57-170636228fe"
+if-modified-since: Thu, 20 Feb 2020 16:15:42 GMT
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+accept: text/css,*/*;q=0.1
+sec-fetch-site: same-origin
+sec-fetch-mode: no-cors
+referer: http://localhost:8080/register
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-20 17:16:37.376 request from ::1:
+POST /register HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 53
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-20 17:16:37.406 request from ::1:
+GET /style.css HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+if-none-match: W/"57-170636228fe"
+if-modified-since: Thu, 20 Feb 2020 16:15:42 GMT
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+accept: text/css,*/*;q=0.1
+sec-fetch-site: same-origin
+sec-fetch-mode: no-cors
+referer: http://localhost:8080/register
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-20 17:16:38.928 request from ::1:
+POST /register HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 34
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+DEBUG 2020-02-20 17:17:32.207 setting up server
+INFO 2020-02-20 17:17:32.216 server up and running on port 8080
+DEBUG 2020-02-20 17:17:56.406 setting up server
+INFO 2020-02-20 17:17:56.414 server up and running on port 8080
+INFO 2020-02-20 17:18:01.210 request from ::1:
+GET /register HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+cache-control: max-age=0
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: cross-site
+sec-fetch-mode: navigate
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-20 17:18:01.259 request from ::1:
+GET /style.css HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+accept: text/css,*/*;q=0.1
+sec-fetch-site: same-origin
+sec-fetch-mode: no-cors
+referer: http://localhost:8080/register
+accept-encoding: gzip, deflate, br
+accept-language: es
+if-none-match: W/"57-170636228fe"
+if-modified-since: Thu, 20 Feb 2020 16:15:42 GMT
+
+INFO 2020-02-20 17:18:09.012 request from ::1:
+POST /register HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 53
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-20 17:18:09.048 request from ::1:
+GET /style.css HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+if-none-match: W/"57-170636228fe"
+if-modified-since: Thu, 20 Feb 2020 16:15:42 GMT
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+accept: text/css,*/*;q=0.1
+sec-fetch-site: same-origin
+sec-fetch-mode: no-cors
+referer: http://localhost:8080/register
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-20 17:18:13.779 request from ::1:
+POST /authenticate HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 25
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+DEBUG 2020-02-20 17:18:52.789 setting up server
+INFO 2020-02-20 17:18:52.796 server up and running on port 8080
+INFO 2020-02-20 17:19:04.954 request from ::1:
+GET / HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: none
+sec-fetch-mode: navigate
+accept-encoding: gzip, deflate, br
+accept-language: es
+if-none-match: W/"187-1fXjPvKgE0ago66jWKT6+5MTQ/c"
+
+INFO 2020-02-20 17:19:04.995 request from ::1:
+GET /style.css HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+if-none-match: W/"57-170636228fe"
+if-modified-since: Thu, 20 Feb 2020 16:15:42 GMT
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+accept: text/css,*/*;q=0.1
+sec-fetch-site: same-origin
+sec-fetch-mode: no-cors
+referer: http://localhost:8080/
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-20 17:19:06.871 request from ::1:
+GET /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/
+accept-encoding: gzip, deflate, br
+accept-language: es
+if-none-match: W/"279-Va6o62Ff9axfxvWCOvtAj89SH1I"
+
+INFO 2020-02-20 17:19:06.896 request from ::1:
+GET /style.css HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+if-none-match: W/"57-170636228fe"
+if-modified-since: Thu, 20 Feb 2020 16:15:42 GMT
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+accept: text/css,*/*;q=0.1
+sec-fetch-site: same-origin
+sec-fetch-mode: no-cors
+referer: http://localhost:8080/login
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-20 17:19:08.162 request from ::1:
+GET /register HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/login
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-20 17:19:08.189 request from ::1:
+GET /style.css HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+if-none-match: W/"57-170636228fe"
+if-modified-since: Thu, 20 Feb 2020 16:15:42 GMT
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+accept: text/css,*/*;q=0.1
+sec-fetch-site: same-origin
+sec-fetch-mode: no-cors
+referer: http://localhost:8080/register
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-20 17:19:16.111 request from ::1:
+POST /register HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 53
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-20 17:19:16.145 request from ::1:
+GET /style.css HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+if-none-match: W/"57-170636228fe"
+if-modified-since: Thu, 20 Feb 2020 16:15:42 GMT
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+accept: text/css,*/*;q=0.1
+sec-fetch-site: same-origin
+sec-fetch-mode: no-cors
+referer: http://localhost:8080/register
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-20 17:19:20.746 request from ::1:
+POST /authenticate HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 25
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+DEBUG 2020-02-20 17:19:52.749 setting up server
+INFO 2020-02-20 17:19:52.757 server up and running on port 8080
+INFO 2020-02-20 17:19:58.816 request from ::1:
+GET /register HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-20 17:19:58.845 request from ::1:
+GET /style.css HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+if-none-match: W/"57-170636228fe"
+if-modified-since: Thu, 20 Feb 2020 16:15:42 GMT
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+accept: text/css,*/*;q=0.1
+sec-fetch-site: same-origin
+sec-fetch-mode: no-cors
+referer: http://localhost:8080/register
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-20 17:20:07.051 request from ::1:
+POST /register HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 53
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-20 17:20:07.089 request from ::1:
+GET /style.css HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+if-none-match: W/"57-170636228fe"
+if-modified-since: Thu, 20 Feb 2020 16:15:42 GMT
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+accept: text/css,*/*;q=0.1
+sec-fetch-site: same-origin
+sec-fetch-mode: no-cors
+referer: http://localhost:8080/register
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-20 17:20:11.291 request from ::1:
+POST /home HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 25
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+DEBUG 2020-02-20 17:20:38.698 setting up server
+INFO 2020-02-20 17:20:38.706 server up and running on port 8080
+DEBUG 2020-02-20 17:21:55.056 setting up server
+INFO 2020-02-20 17:21:55.064 server up and running on port 8080
+INFO 2020-02-20 17:21:58.701 request from ::1:
+POST /home HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 25
+cache-control: max-age=0
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+origin: http://localhost:8080
+content-type: application/x-www-form-urlencoded
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-20 17:22:04.430 request from ::1:
+POST /home HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 25
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+DEBUG 2020-02-20 17:24:16.183 setting up server
+INFO 2020-02-20 17:24:16.193 server up and running on port 8080
+DEBUG 2020-02-20 17:24:33.969 setting up server
+INFO 2020-02-20 17:24:33.976 server up and running on port 8080
+INFO 2020-02-20 17:24:45.050 request from ::1:
+POST /home HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 29
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+DEBUG 2020-02-20 17:27:45.897 setting up server
+INFO 2020-02-20 17:27:45.909 server up and running on port 8080
+INFO 2020-02-20 17:27:54.931 request from ::1:
+POST /home HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 29
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+DEBUG 2020-02-20 17:28:34.765 setting up server
+INFO 2020-02-20 17:28:34.777 server up and running on port 8080
+INFO 2020-02-20 17:28:41.149 request from ::1:
+POST /home HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 29
+cache-control: max-age=0
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+origin: http://localhost:8080
+content-type: application/x-www-form-urlencoded
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-20 17:29:07.853 request from ::1:
+POST /home HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 29
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/register
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+DEBUG 2020-02-20 17:29:50.842 setting up server
+INFO 2020-02-20 17:29:50.852 server up and running on port 8080
+INFO 2020-02-20 17:30:00.246 request from ::1:
+GET / HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+purpose: prefetch
+sec-fetch-site: none
+sec-fetch-mode: navigate
+accept-encoding: gzip, deflate, br
+accept-language: es
+if-none-match: W/"187-1fXjPvKgE0ago66jWKT6+5MTQ/c"
+
+INFO 2020-02-20 17:30:00.285 request from ::1:
+GET /style.css HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+accept: text/css,*/*;q=0.1
+purpose: prefetch
+sec-fetch-site: same-origin
+sec-fetch-mode: no-cors
+referer: http://localhost:8080/
+accept-encoding: gzip, deflate, br
+accept-language: es
+if-none-match: W/"57-170636228fe"
+if-modified-since: Thu, 20 Feb 2020 16:15:42 GMT
+
+INFO 2020-02-20 17:30:04.819 request from ::1:
+GET /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/
+accept-encoding: gzip, deflate, br
+accept-language: es
+if-none-match: W/"279-Va6o62Ff9axfxvWCOvtAj89SH1I"
+
+INFO 2020-02-20 17:30:04.845 request from ::1:
+GET /style.css HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+if-none-match: W/"57-170636228fe"
+if-modified-since: Thu, 20 Feb 2020 16:15:42 GMT
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+accept: text/css,*/*;q=0.1
+sec-fetch-site: same-origin
+sec-fetch-mode: no-cors
+referer: http://localhost:8080/login
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-20 17:30:16.909 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 34
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/login
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-20 17:30:16.942 request from ::1:
+GET /style.css HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+if-none-match: W/"57-170636228fe"
+if-modified-since: Thu, 20 Feb 2020 16:15:42 GMT
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+accept: text/css,*/*;q=0.1
+sec-fetch-site: same-origin
+sec-fetch-mode: no-cors
+referer: http://localhost:8080/login
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+DEBUG 2020-02-20 17:30:37.213 setting up server
+INFO 2020-02-20 17:30:37.223 server up and running on port 8080
+DEBUG 2020-02-20 17:31:16.907 setting up server
+INFO 2020-02-20 17:31:16.917 server up and running on port 8080
+INFO 2020-02-20 17:31:39.154 request from ::1:
+GET /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: none
+sec-fetch-mode: navigate
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-20 17:31:39.181 request from ::1:
+GET /style.css HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+if-none-match: W/"57-170636228fe"
+if-modified-since: Thu, 20 Feb 2020 16:15:42 GMT
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+accept: text/css,*/*;q=0.1
+sec-fetch-site: same-origin
+sec-fetch-mode: no-cors
+referer: http://localhost:8080/login
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-20 17:31:44.111 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 29
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/login
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-20 17:31:44.132 request from ::1:
+GET /home/pepigri HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+cache-control: max-age=0
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/login
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+DEBUG 2020-02-20 17:33:29.147 setting up server
+INFO 2020-02-20 17:33:29.156 server up and running on port 8080
+INFO 2020-02-20 17:33:39.927 request from ::1:
+GET / HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: none
+sec-fetch-mode: navigate
+accept-encoding: gzip, deflate, br
+accept-language: es
+if-none-match: W/"187-1fXjPvKgE0ago66jWKT6+5MTQ/c"
+
+INFO 2020-02-20 17:33:39.958 request from ::1:
+GET /style.css HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+if-none-match: W/"57-170636228fe"
+if-modified-since: Thu, 20 Feb 2020 16:15:42 GMT
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+accept: text/css,*/*;q=0.1
+sec-fetch-site: same-origin
+sec-fetch-mode: no-cors
+referer: http://localhost:8080/
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-20 17:33:42.197 request from ::1:
+GET /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-20 17:33:42.226 request from ::1:
+GET /style.css HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+if-none-match: W/"57-170636228fe"
+if-modified-since: Thu, 20 Feb 2020 16:15:42 GMT
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+accept: text/css,*/*;q=0.1
+sec-fetch-site: same-origin
+sec-fetch-mode: no-cors
+referer: http://localhost:8080/login
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-20 17:33:47.546 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 29
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/login
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-20 17:33:47.566 request from ::1:
+GET /home/pepigri HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+cache-control: max-age=0
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/login
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+DEBUG 2020-02-20 17:35:22.861 setting up server
+INFO 2020-02-20 17:35:22.869 server up and running on port 8080
+DEBUG 2020-02-20 17:35:47.696 setting up server
+INFO 2020-02-20 17:35:47.706 server up and running on port 8080
+DEBUG 2020-02-20 17:36:22.279 setting up server
+INFO 2020-02-20 17:36:22.287 server up and running on port 8080
+INFO 2020-02-20 17:37:07.288 request from ::1:
+GET / HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: none
+sec-fetch-mode: navigate
+accept-encoding: gzip, deflate, br
+accept-language: es
+if-none-match: W/"187-1fXjPvKgE0ago66jWKT6+5MTQ/c"
+
+INFO 2020-02-20 17:37:07.321 request from ::1:
+GET /style.css HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+if-none-match: W/"57-170636228fe"
+if-modified-since: Thu, 20 Feb 2020 16:15:42 GMT
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+accept: text/css,*/*;q=0.1
+sec-fetch-site: same-origin
+sec-fetch-mode: no-cors
+referer: http://localhost:8080/
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-20 17:37:09.206 request from ::1:
+GET /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-20 17:37:09.231 request from ::1:
+GET /style.css HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+if-none-match: W/"57-170636228fe"
+if-modified-since: Thu, 20 Feb 2020 16:15:42 GMT
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+accept: text/css,*/*;q=0.1
+sec-fetch-site: same-origin
+sec-fetch-mode: no-cors
+referer: http://localhost:8080/login
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-20 17:37:13.567 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 29
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/login
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-20 17:37:13.586 request from ::1:
+GET /home/pepigri HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+cache-control: max-age=0
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/login
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-20 17:37:13.605 request from ::1:
+GET /style.css HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+if-none-match: W/"57-170636228fe"
+if-modified-since: Thu, 20 Feb 2020 16:15:42 GMT
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+accept: text/css,*/*;q=0.1
+sec-fetch-site: same-origin
+sec-fetch-mode: no-cors
+referer: http://localhost:8080/home/pepigri
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-20 17:37:16.337 request from ::1:
+POST /logout HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 16
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/home/pepigri
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-20 17:37:19.397 request from ::1:
+POST /logout HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 16
+cache-control: max-age=0
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+origin: http://localhost:8080
+content-type: application/x-www-form-urlencoded
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/home/pepigri
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+DEBUG 2020-02-20 17:37:28.070 setting up server
+INFO 2020-02-20 17:37:28.078 server up and running on port 8080
+DEBUG 2020-02-20 17:37:34.243 setting up server
+INFO 2020-02-20 17:37:34.251 server up and running on port 8080
+DEBUG 2020-02-20 17:39:23.076 setting up server
+INFO 2020-02-20 17:39:23.084 server up and running on port 8080
+DEBUG 2020-02-20 17:39:27.327 setting up server
+INFO 2020-02-20 17:39:27.334 server up and running on port 8080
+DEBUG 2020-02-20 17:39:57.201 setting up server
+INFO 2020-02-20 17:39:57.208 server up and running on port 8080
+DEBUG 2020-02-20 17:39:59.026 setting up server
+INFO 2020-02-20 17:39:59.034 server up and running on port 8080
+DEBUG 2020-02-20 17:41:54.672 setting up server
+INFO 2020-02-20 17:41:54.680 server up and running on port 8080
+DEBUG 2020-02-20 17:43:09.600 setting up server
+INFO 2020-02-20 17:43:09.609 server up and running on port 8080
+INFO 2020-02-20 17:43:21.280 request from ::1:
+GET / HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+purpose: prefetch
+sec-fetch-site: none
+sec-fetch-mode: navigate
+accept-encoding: gzip, deflate, br
+accept-language: es
+if-none-match: W/"187-1fXjPvKgE0ago66jWKT6+5MTQ/c"
+
+INFO 2020-02-20 17:43:21.302 request from ::1:
+GET /style.css HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+accept: text/css,*/*;q=0.1
+purpose: prefetch
+sec-fetch-site: same-origin
+sec-fetch-mode: no-cors
+referer: http://localhost:8080/
+accept-encoding: gzip, deflate, br
+accept-language: es
+if-none-match: W/"57-170636228fe"
+if-modified-since: Thu, 20 Feb 2020 16:15:42 GMT
+
+INFO 2020-02-20 17:43:22.824 request from ::1:
+GET /style.css HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+if-none-match: W/"57-170636228fe"
+if-modified-since: Thu, 20 Feb 2020 16:15:42 GMT
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+accept: text/css,*/*;q=0.1
+sec-fetch-site: same-origin
+sec-fetch-mode: no-cors
+referer: http://localhost:8080/
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-20 17:43:27.706 request from ::1:
+GET /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-20 17:43:27.729 request from ::1:
+GET /style.css HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+if-none-match: W/"57-170636228fe"
+if-modified-since: Thu, 20 Feb 2020 16:15:42 GMT
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+accept: text/css,*/*;q=0.1
+sec-fetch-site: same-origin
+sec-fetch-mode: no-cors
+referer: http://localhost:8080/login
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-20 17:43:38.173 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 29
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/login
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-20 17:43:38.213 request from ::1:
+GET /style.css HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+if-none-match: W/"57-170636228fe"
+if-modified-since: Thu, 20 Feb 2020 16:15:42 GMT
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+accept: text/css,*/*;q=0.1
+sec-fetch-site: same-origin
+sec-fetch-mode: no-cors
+referer: http://localhost:8080/login
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-20 17:43:47.906 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 29
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/login
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-20 17:43:47.934 request from ::1:
+GET /style.css HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+if-none-match: W/"57-170636228fe"
+if-modified-since: Thu, 20 Feb 2020 16:15:42 GMT
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+accept: text/css,*/*;q=0.1
+sec-fetch-site: same-origin
+sec-fetch-mode: no-cors
+referer: http://localhost:8080/login
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-20 17:43:48.814 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 19
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/login
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-20 17:43:48.838 request from ::1:
+GET /style.css HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+if-none-match: W/"57-170636228fe"
+if-modified-since: Thu, 20 Feb 2020 16:15:42 GMT
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+accept: text/css,*/*;q=0.1
+sec-fetch-site: same-origin
+sec-fetch-mode: no-cors
+referer: http://localhost:8080/login
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-20 17:43:49.349 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 19
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/login
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-20 17:43:49.371 request from ::1:
+GET /style.css HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+if-none-match: W/"57-170636228fe"
+if-modified-since: Thu, 20 Feb 2020 16:15:42 GMT
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+accept: text/css,*/*;q=0.1
+sec-fetch-site: same-origin
+sec-fetch-mode: no-cors
+referer: http://localhost:8080/login
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-20 17:43:50.040 request from ::1:
+POST /login HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+content-length: 19
+cache-control: max-age=0
+origin: http://localhost:8080
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+referer: http://localhost:8080/login
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+INFO 2020-02-20 17:43:50.068 request from ::1:
+GET /style.css HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+if-none-match: W/"57-170636228fe"
+if-modified-since: Thu, 20 Feb 2020 16:15:42 GMT
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+accept: text/css,*/*;q=0.1
+sec-fetch-site: same-origin
+sec-fetch-mode: no-cors
+referer: http://localhost:8080/login
+accept-encoding: gzip, deflate, br
+accept-language: es
+
+DEBUG 2020-02-20 17:49:35.352 setting up server
+INFO 2020-02-20 17:49:35.360 server up and running on port 8080
+INFO 2020-02-20 18:47:35.962 request from ::1:
+GET / HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+sec-fetch-user: ?1
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+purpose: prefetch
+sec-fetch-site: none
+sec-fetch-mode: navigate
+accept-encoding: gzip, deflate, br
+accept-language: es
+if-none-match: W/"187-1fXjPvKgE0ago66jWKT6+5MTQ/c"
+
+INFO 2020-02-20 18:47:36.020 request from ::1:
+GET /style.css HTTP/1.1
+host: localhost:8080
+connection: keep-alive
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+accept: text/css,*/*;q=0.1
+purpose: prefetch
+sec-fetch-site: same-origin
+sec-fetch-mode: no-cors
+referer: http://localhost:8080/
+accept-encoding: gzip, deflate, br
+accept-language: es
+if-none-match: W/"57-170636228fe"
+if-modified-since: Thu, 20 Feb 2020 16:15:42 GMT
+
