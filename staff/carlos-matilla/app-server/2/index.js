@@ -101,7 +101,15 @@ app.post('/register', urlencodedBodyParser, (req, res) => {
     const { body: { name, surname, username, password } } = req
 
     try {
-        registerUser(name, surname, username, password) // TODO WARN! this is SYNC!
+        registerUser(name, surname, username, password, error =>{
+            if (error) {
+                const { message } = error
+                const { session: { acceptCookies } } = req
+
+                return res.send(App({ title: 'Register', body: Register({ error: message }), acceptCookies }))
+            }
+            res.redirect('/login')
+        }) 
 
         res.redirect('/login')
     } catch ({ message }) {
